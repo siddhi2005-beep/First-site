@@ -32,7 +32,7 @@ function back(){
 }
 
 function buy(){
-  window.location.href="payment.html";
+    alert("Order Successfull");
 }
 
 function logout(){
