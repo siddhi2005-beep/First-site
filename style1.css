@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(191, 239, 239);
+}
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    margin-left:5px;
+    margin-top:5px;
+    border-radius: 10px;
+    padding: 16px;
+    font-size: 26px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    height: 400px;
+    border-radius: 10px;
+    text-size-adjust: 75px;
+    border: solid black;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    border: black;
+    box-shadow: 0px 8px 8px 0px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+  .show {display:block;}
+  
+h1{
+    color: cadetblue;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.wuw{
+    font-size:45px;
+}
+.image{
+    margin-top:100px;
+    object-fit: contain;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-left:850px;
+}
+.para{
+    font-size:25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.explore-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background: #6A11CB;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .explore-btn:hover {
+    background: #2575FC;
+  }
+.explore-button{
+    width:150px;
+    height:100px;
+    display: center;
+    justify-content: center;
+    align-items:center;
+    margin-left:50%;
+    margin-bottom:50px;
+    margin-top:50px;
+    margin-left:900px;
+}
+
+.adi{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.questions{
+    font-size: x-large;
+    text-align: center;
+    align-items: center;
+}
